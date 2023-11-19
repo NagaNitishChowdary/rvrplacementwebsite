@@ -1,0 +1,238 @@
+.comparison {
+  margin-left: 10%;
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.comparison h2 {
+  color: darkblue;
+}
+
+.table-graph {
+  display: inline-flex;
+}
+
+.table {
+  margin: auto;
+  width: 40%;
+  margin-left: 2%;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #189a08;
+  color: white;
+}
+
+.graph {
+  margin: auto;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.graph img {
+  width: 80%;
+}
+
+/* Placement Statistics */
+
+.placement-statistics {
+  margin-left: 10%;
+}
+
+.placement-statistics h2 {
+  color: darkblue;
+}
+
+.placement-statistics table {
+  width: 90%;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.placement-statistics table td, .placement-statistics table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.placement-statistics table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.placement-statistics table tr:hover {
+  background-color: #ddd;
+}
+
+.placement-statistics table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #189a08;
+  color: white;
+}
+
+/* year-wise-placements-graph */
+.year-wise-placements-graph {
+  width: 100%;
+}
+
+.year-wise-placements-graph h2 {
+  margin-left: 5%;
+  color: blue;
+}
+
+.year-wise-placements-graph img {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background-color: #189a08;
+}
+
+.footer h1 {
+  color: white;
+  padding-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 0%;
+}
+
+.footer-items {
+  display: inline-flex;
+  width: 100%;
+}
+
+.footer-headings {
+  color: white;
+}
+
+.contact-us {
+  width: 200%;
+  margin: auto;
+  display: flex;
+  padding-bottom: 1%;
+}
+
+.contact-us h4 {
+  color: white;
+  margin-bottom: 0%;
+}
+
+.contact-us h3 {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 0%;
+}
+
+.contact-us p {
+  color: white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.SPoC {
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.Alternate {
+  margin: auto;
+}
+
+.our-college-website {
+  margin: auto;
+}
+
+.our-college-website a {
+  color: white;
+  text-decoration: none;
+}
+
+.our-college-website a:hover {
+  color: darkgreen;
+}
+
+.cp-socialmedia {
+  display: flex;
+}
+
+.cp {
+  width: 70%;
+  margin-left: 5%;
+}
+
+.cp span {
+  color: white;
+}
+.cp span a {
+  color: white;
+  text-decoration: none;
+}
+
+.cp a:hover {
+  color: darkgreen;
+}
+
+.cp p {
+  color: white;
+  margin: auto;
+  padding: 1% 1% 1% 0%;
+  font-size: 20px;
+}
+
+.socialmedia {
+  display: flex;
+  margin: auto;
+  margin-right: 5%;
+}
+
+.gotop {
+  width: 70%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  align: right;
+  bottom: 2%;
+  left: 95%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .gotop {
+    width: 120%;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    align: right;
+    bottom: 3%;
+    left: 93%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
