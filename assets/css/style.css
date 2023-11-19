@@ -1,0 +1,268 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: auto;
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+		width: 150%;
+	}
+}
+
+h1 {
+	color: red;
+}
+
+/* CSS for nav-wrapper */
+.topnav {
+  overflow: hidden;
+  background-color: #189a08;
+}
+
+.topnav a {
+	float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.active {
+  background-color: darkgreen;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #189a08;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: darkgreen;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: darkgreen;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Placement Menu */
+
+/* {box-sizing: border-box} */
+
+.placement-home {
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+	margin: auto;
+	margin-top: 3%;
+}
+
+.placement-menu {
+	display: block;
+}
+
+.heading2 {
+	color: blue;
+}
+
+.tab {
+  float: left;
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  width: 25%;
+}
+
+.tab a{
+	text-decoration: none;
+}
+
+.tab button {
+  display: block;
+  background-color: #189a08;
+  color: white;
+  padding: 15px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  color: darkgreen;
+}
+
+.tab button.active {
+  color: darkgreen;
+	background-color: white;
+}
+
+.tabcontent {
+  float: left;
+	margin-left: 5%;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+}
+
+/* Placement Info */
+
+.current-year {
+  width: 100%;
+	background-color: skyblue;
+	border-radius: 5px;
+	margin-bottom: 3%;
+	padding: 2% 2% 2% 0%;
+}
+
+.headings {
+	margin-left: 10%;
+	text-decoration: underline;
+	color: darkgreen;
+}
+
+.subheadings {
+	margin-left: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+.branch-list {
+	margin-top: 0%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+}
+
+.branch-list li {
+	display: inline-block;
+}
+
+.previous-year {
+	width: 100%;
+	background-color: #75d69c;
+	border-radius: 5px;
+	margin-bottom: 2%;
+	padding: 2% 2% 2% 0%;
+}
+
+.headings2 {
+	margin-left: 10%;
+	text-decoration: underline;
+	color: darkblue;
+}
+
+/* Committee */
+.committee-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.committee-table td,th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+.committee-table tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.committee-table tr td:nth-child(2) {
+	text-align: justify;
+	padding: 8px;
+}
+
+.committee-table thead {
+	background-color: gray;
+	color: white;
+}
+
+/* Training Programmes */
+
+#training-programmes {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#training-programmes a {
+	text-decoration: none;
+}
