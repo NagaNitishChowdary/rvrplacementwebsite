@@ -1,0 +1,16 @@
+body {
+  background-color: #189a08;
+}
+
+h1,h2,p {
+  color: white;
+}
+
+.team-members {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.guider-by {
+  margin-bottom: 5%;
+}
