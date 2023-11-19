@@ -1,0 +1,52 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.2s;
+  font-size: 15px;
+  color: black;
+}
+
+.tab button:hover {
+  background-color: grey;
+}
+
+.pstat-table {
+  width: 90%;
+  margin-left: 5%;
+  border-collapse: collapse;
+}
+
+.pstat-table tr {
+  text-align: center;
+}
+
+.pstat-table td, .pstat-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.pstat-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.pstat-table tr:hover {
+  background-color: #ddd;
+}
+
+.pstat-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #189a08;
+  color: white;
+}
